@@ -1,6 +1,4 @@
 package Calculadora;
-
-
 import java.util.Scanner;
 
 public class Operacoes {
@@ -38,6 +36,7 @@ public class Operacoes {
                 + " 3 - MULTIPLICAÇÃO\n"
                 + " 4 - DIVISÃO\n"
                 + " 0 - ENCERRAR O PROGRAMA\n");
+
         int opcaoSelecionada = scan.nextInt();
         if (opcaoSelecionada == 0) System.exit(0); // encerra a aplicação
 
